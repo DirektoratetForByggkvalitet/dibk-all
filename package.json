@@ -1,0 +1,9 @@
+{
+    "name": "dibk-all",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "firebase serve -p 8080",
+        "deploy": "npm run build && firebase deploy"
+    }
+}
